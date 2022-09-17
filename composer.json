@@ -1,0 +1,13 @@
+{
+    "require": {
+        "altorouter/altorouter": "^2.0",
+        "symfony/var-dumper": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sonic\\Controllers\\" : "app/controllers",
+            "Sonic\\Utils\\" : "app/utils",
+            "Sonic\\Models\\" : "app/models"
+        }
+    }
+}

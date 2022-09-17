@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(45deg, #0924B3, #2C6EF6);
+    padding: 50px;
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    background-image: linear-gradient(to right, #D31027 0%, #EA384D  51%, #D31027  100%);
+    margin: 50px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+a:hover {
+background-position: right center;
+color: #fff;
+text-decoration: none;
+}
+
+h1, h3 {
+    text-shadow:#ffae00 0.5px 0.5px 0,
+    #ff00c0 5px 5px 0,
+    #aa0306 7.5px 7.5px 0,
+    #333 10.5px 10.5px 10px;color:#FFDB57;
+    text-align: center;
+    padding: 2em;
+    font-size: 2em;
+}
+
+p {
+    color: white;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    border: medium solid #2c8a33;
+    border-collapse: collapse;
+}
+
+thead {
+    color: #2c8a33;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+td {
+    border: medium solid #2c8a33;
+    border-collapse: collapse;
+}
+
+ 
+
